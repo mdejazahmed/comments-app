@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.mainContainer {
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.btn {
+  border: none;
+  background-color: rgb(25, 25, 255);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .imgContainer {
+    order: 2;
+  }
+}
